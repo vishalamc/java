@@ -8,7 +8,7 @@ class tryNestedTryEx
 		{
 		int res=10/5;
 		
-		System.out.println(res);
+		
 			try{
 				System.out.println(num[5]);
 			   }
@@ -16,6 +16,7 @@ class tryNestedTryEx
 			{
 			ex1.printStackTrace();
 			}
+		System.out.println(res);
 		}
 		catch(Exception  ex2)
 		{
